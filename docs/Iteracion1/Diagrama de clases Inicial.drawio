@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="hHCm4EiRhmgbVVKyDPYK">
+    <mxGraphModel dx="1414" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Activo" vertex="1">
+          <mxGeometry height="60" width="140" x="360" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-3" parent="j7m6Uz_TmXug0elGNYKr-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-Id" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-8" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Inversion" vertex="1">
+          <mxGeometry height="110" width="140" x="440" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-9" parent="j7m6Uz_TmXug0elGNYKr-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Cantidad&lt;div&gt;- Valor&lt;/div&gt;&lt;div&gt;- Plazo&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Interés&lt;/div&gt;&lt;div&gt;- Fecha&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hipoteca" vertex="1">
+          <mxGeometry height="180" width="180" x="220" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-14" parent="j7m6Uz_TmXug0elGNYKr-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Pareja&lt;div&gt;- Valor Inicial&lt;/div&gt;&lt;div&gt;- Fecha_Otorgada&lt;/div&gt;&lt;div&gt;- Cuota&lt;/div&gt;&lt;div&gt;- Ingresos sin impuestos&lt;/div&gt;&lt;div&gt;- Impuesto&lt;/div&gt;&lt;div&gt;- Seguro&lt;/div&gt;&lt;div&gt;- Fecha_Impuesto&lt;/div&gt;&lt;div&gt;- Fecha de seguro&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="154" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-25" edge="1" parent="1" source="j7m6Uz_TmXug0elGNYKr-12" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="370" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=gap;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7m6Uz_TmXug0elGNYKr-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="290" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=gap;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="290" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=gap;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="j7m6Uz_TmXug0elGNYKr-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="290" as="sourcePoint" />
+            <mxPoint x="480" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="MSGF" vertex="1">
+          <mxGeometry height="80" width="140" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-32" parent="j7m6Uz_TmXug0elGNYKr-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;-Gastos Opcionales&lt;/div&gt;&lt;div&gt;-Tasa de interes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j7m6Uz_TmXug0elGNYKr-34" edge="1" parent="1" source="j7m6Uz_TmXug0elGNYKr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=gap;" target="j7m6Uz_TmXug0elGNYKr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
