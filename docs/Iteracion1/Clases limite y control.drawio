@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="JrI46j-83PBNFylP0icm">
+    <mxGraphModel dx="1704" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fbRBhuo26RotqLkpP56E-4" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Pantalla&lt;div&gt;CalculoFondos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fbRBhuo26RotqLkpP56E-5" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Pantalla&lt;div&gt;Gestion&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Hipoteca&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="200" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fbRBhuo26RotqLkpP56E-6" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Pantalla&lt;div&gt;GestionInversion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="200" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="fbRBhuo26RotqLkpP56E-7" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Pantalla&lt;div&gt;GestionReporte&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="200" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="fbRBhuo26RotqLkpP56E-8" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Controlador&lt;div&gt;CalculoFondos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="100" x="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fbRBhuo26RotqLkpP56E-9" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Controlador&lt;div&gt;Hipoteca&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="100" x="410" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fbRBhuo26RotqLkpP56E-12" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Controlador&lt;div&gt;Inversion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="100" x="410" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fbRBhuo26RotqLkpP56E-13" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Controlador Reporte" vertex="1">
+          <mxGeometry height="110" width="100" x="410" y="495" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
